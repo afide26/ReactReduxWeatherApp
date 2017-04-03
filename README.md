@@ -1,4 +1,4 @@
-# ReactWeatherApp
+# ReactReduxWeatherApp
 The sample application is the second application in the React Redux course by Stephen Grider in Udemy
 
 ## Application Specifications:
