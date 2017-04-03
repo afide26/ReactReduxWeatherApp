@@ -1,25 +1,15 @@
-# ReduxSimpleStarter
+# ReactWeatherApp
+The sample application is the second application in the React Redux course by Stephen Grider in Udemy
 
-Interested in learning [Redux](https://www.udemy.com/react-redux/)?
+## Application Specifications:
 
-###Getting Started###
+### Tooling and Modules
 
-There are two methods for getting started with this repo.
-
-####Familiar with Git?#####
-Checkout this repo, install dependencies, then start the gulp process with the following:
-
-```
-	> git clone git@github.com:StephenGrider/ReduxSimpleStarter.git
-	> cd ReduxSimpleStarter
-	> npm install
-	> npm start
-```
-
-####Not Familiar with Git?#####
-Click [here](https://github.com/StephenGrider/ReactStarter/releases) then download the .zip file.  Extract the contents of the zip file, then open your terminal, change to the project directory, and:
-
-```
-	> npm install
-	> npm start
-```
+This application uses some of the basic React Tools like:
+1. React
+2. ReactDOM
+3. Babel
+4. Webpack
+5. axios
+6. Redux
+7. Redux Promise
