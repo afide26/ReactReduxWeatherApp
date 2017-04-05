@@ -27,7 +27,7 @@ class SearchBar extends Component {
   render(){
     return(
       <div>
-        <h1>React and Redux Weather App</h1>
+        <h1><img id="react-logo" src="https://facebook.github.io/react/img/logo.svg" alt="React-Logo"/> React and <img id="redux-logo" src="https://raw.githubusercontent.com/reactjs/redux/master/logo/logo.png" alt="Redux Logo"/> Redux Weather App</h1>
         <form onSubmit={this.onFormSubmit} className="input-group">
           <input
             className="form-control"

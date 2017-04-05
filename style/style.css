@@ -1,21 +1,38 @@
 body{
   padding-top: 30px;
+  background: #ededed !important;
+  font-family: 'Roboto Slab', 'Arial', sans-serif !important;
 }
-table, form{
-  margin-top: 50px;
+
+td,th{
+  vertical-align: middle !important;
+  text-align: center !important;
 }
-tr{
-  max-height: 190px;
-  overflow:hidden;
+
+.input-group{
+  margin: 20px 0;
 }
 
 #chart{
   border-radius: 10px;
-  background: #efefef;
-  min-height: 180px;
-  overflow:hidden;
+  background: #f4f4f4;
 }
 
+svg{
+  height: 150px;
+}
+#react-logo{
+  height: 50px;
+  border-radius: 50%;
+}
+#redux-logo{
+  height: 50px;
+}
+
+td:first-of-type, td:first-of-type> div{
+  height: 220px;
+  width: 250px;
+}
 #chart-avg{
   text-align:center;
   font-size: 1.2rem;
