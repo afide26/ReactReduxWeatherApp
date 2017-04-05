@@ -1,3 +1,24 @@
 body{
   padding-top: 30px;
 }
+table, form{
+  margin-top: 50px;
+}
+tr{
+  max-height: 190px;
+  overflow:hidden;
+}
+
+#chart{
+  border-radius: 10px;
+  background: #efefef;
+  min-height: 180px;
+  overflow:hidden;
+}
+
+#chart-avg{
+  text-align:center;
+  font-size: 1.2rem;
+  margin-top: 10px;
+  font-weight: bold;
+}
